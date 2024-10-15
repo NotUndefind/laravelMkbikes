@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+}
+
+.item {
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    margin: 1rem;
+}
+
+img {
+    max-width: 150px;
+}
+
+li {
+    list-style: none;
+
+    max-width: 30%;
+}
+
+.allList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.fromInput {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+textarea {
+    width: 90%;
+    height: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: large;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}

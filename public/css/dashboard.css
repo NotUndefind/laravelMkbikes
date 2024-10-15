@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+img {
+    max-width: 150px;
+}
+
+.allList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
